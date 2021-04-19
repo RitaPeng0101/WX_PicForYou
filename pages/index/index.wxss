@@ -1,0 +1,10 @@
+/* pages/index/index.wxss */
+.miao{
+  width: 750rpx;
+  height:1200rpx;
+}
+.mn{
+  margin: 0 auto;
+  width: fit-content;
+  height: fit-content;
+}
