@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/flex/flex",
+    "pages/index/index",
+    "pages/my/mypage",
+    "pages/foryou/foryou",
+    "pages/login/login"
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "iconPath": "/icon/tuces-3.png",
+        "selectedIconPath": "/icon/tuce-3.png",
+        "pagePath": "pages/home/home",
+        "text": "图记"
+      },
+
+      {
+        "iconPath": "/icon/bmji-3.png",
+        "selectedIconPath": "/icon/bmjis-3.png",
+        "pagePath": "pages/foryou/foryou",
+        "text": "记图"
+      },
+
+      {
+        "iconPath": "/icon/my-3.png",
+        "selectedIconPath": "/icon/mys-3.png",
+        "pagePath": "pages/my/mypage",
+        "text": "我的"
+      }
+    ]
+  },
+  "window": {
+    "navigationBarBackgroundColor": "#3bac1f",
+    "navigationBarTitleText": "图记 For You",
+    "navigationBarTextStyle": "white",
+    "backgroundTextStyle": "light",
+    "backgroundColor": "#85D987"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
