@@ -1,0 +1,5 @@
+<!--pages/index/index.wxml-->
+<view class="mn" style="white-space:pre">
+</view>
+<image  class="miao" src="/icon/mn.jpg"/>
+

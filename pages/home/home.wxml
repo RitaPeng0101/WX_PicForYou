@@ -1,0 +1,120 @@
+<!--pages/flex/flex.wxml-->
+<view>
+  <swiper  class="rll" 
+    indicator-dots="true"
+    autoplay="true"
+    interval="2000"
+    duration="476"
+    >
+    <navigator url="/pages/index/index">
+    <swiper-item>
+      <image class="sw" src="/icon/y1.jpg"></image>
+    </swiper-item>
+  </navigator>
+  <navigator  url="/pages/index/index">
+    <swiper-item>
+      <image class="sw" src="/icon/y2.jpg"></image>
+    </swiper-item>
+  </navigator>
+  <navigator  url="/pages/index/index">
+    <swiper-item>
+      <image class="sw" src="/icon/y3.jpg"></image>
+    </swiper-item>
+  </navigator>
+  <navigator  url="/pages/index/index">
+    <swiper-item>
+      <image class="sw" src="/icon/y4.jpg"></image>
+    </swiper-item>
+  </navigator>
+    <navigator url="/pages/index/index">
+    <swiper-item>
+      <image class="sw" src="/icon/y5.jpg"></image>
+    </swiper-item>
+    </navigator>
+  </swiper>
+</view>
+
+<view class='input'>
+  <input placeholder='<-图册查询' class='search-input' value='{{ inputValue }}' bindblur='bindblur'></input>
+</view>
+
+<view style="white-space:pre" >
+  “不分享，不社交，只属于你的图记空间。”
+</view>
+
+<view class="ju" >
+ <navigator class="box1" url="/pages/index/index">
+   <view class="box_img">
+    <image class="icon" src="/icon/ascending.png"></image>
+   </view>
+   <view class="box_txt">
+     排序
+   </view>
+ </navigator> 
+ <navigator class="box2" url="/pages/index/index">
+  <view class="box_img">
+    <image class="icon" src="/icon/all.png"></image>
+   </view>
+   <view class="box_txt">
+     缩略
+   </view>
+ </navigator>
+
+ <navigator class="box3" url="/pages/index/index">
+  <view class="box_img">
+    <image class="icon" src="/icon/data-view.png"></image>
+   </view>
+   <view class="box_txt">
+     统计
+   </view>
+  </navigator>
+
+ <navigator class="box4" url="/pages/index/index">
+  <view class="box_img">
+    <image class="icon" src="/icon/viewlist.png"></image>
+   </view>
+   <view class="box_txt">
+    图册
+   </view>
+  </navigator>
+
+ <navigator class="box5" url="/pages/index/index">  <view class="box_img">
+  <image class="icon" src="/icon/form.png"></image>
+   </view>
+   <view class="box_txt">
+    表格
+   </view></navigator>
+
+ <navigator class="box5" url="/pages/index/index">  <view class="box_img">
+  <image class="icon" src="/icon/all.png"></image>
+   </view>
+   <view class="box_txt">
+     画框
+   </view></navigator>
+
+ <navigator class="box4" url="/pages/index/index">  <view class="box_img">
+  <image class="icon" src="/icon/attachent.png"></image>
+   </view>
+   <view class="box_txt">
+     链接
+   </view></navigator>
+ <navigator class="box3" url="/pages/index/index">  <view class="box_img">
+  <image class="icon" src="/icon/download.png"></image>
+   </view>
+   <view class="box_txt">
+     导出
+   </view></navigator>
+ <navigator class="box2" url="/pages/index/index">  <view class="box_img">
+  <image class="icon" src="/icon/copy.png"></image>
+   </view>
+   <view class="box_txt">
+     复制
+   </view></navigator>
+ <navigator class="box1" url="/pages/index/index">  <view class="box_img">
+  <image class="icon" src="/icon/ashbin-fill.png"></image>
+   </view>
+   <view class="box_txt">
+     删除
+   </view></navigator>
+
+</view>
