@@ -1,0 +1,94 @@
+<!--pages/flex/flex.wxml-->
+<view>
+  <swiper  class="rll" 
+    indicator-dots="true"
+    autoplay="true"
+    interval="2000"
+    duration="476"
+    >
+    <navigator url="/pages/index/index">
+    <swiper-item>
+      <image class="sw" src="/icon/y1.jpg"></image>
+    </swiper-item>
+  </navigator>
+  <navigator  url="/pages/index/index">
+    <swiper-item>
+      <image class="sw" src="/icon/y2.jpg"></image>
+    </swiper-item>
+  </navigator>
+  <navigator  url="/pages/index/index">
+    <swiper-item>
+      <image class="sw" src="/icon/y3.jpg"></image>
+    </swiper-item>
+  </navigator>
+  <navigator  url="/pages/index/index">
+    <swiper-item>
+      <image class="sw" src="/icon/y4.jpg"></image>
+    </swiper-item>
+  </navigator>
+    <navigator url="/pages/index/index">
+    <swiper-item>
+      <image class="sw" src="/icon/y5.jpg"></image>
+    </swiper-item>
+    </navigator>
+  </swiper>
+</view>
+
+<view class='input'>
+  <input placeholder='<-查询' class='search-input' value='{{ inputValue }}' bindblur='bindblur'></input>
+</view>
+
+<view style="white-space:pre" >
+  “爱生活要甚于爱生活的意义。”
+</view>
+
+<view class="ju" >
+ <navigator class="box1" url="/pages/time/time">
+   <view class="box_img">
+    <image class="icon" src="/icon/data.png"></image>
+   </view>
+   <view class="box_txt">
+     计时
+   </view>
+ </navigator> 
+
+
+ <view class="box5" >  <view class="box_img">
+  <image class="icon" mode="aspectFill" src="/icon/edit.png" bindtap="touchAdd"></image>
+   </view>
+   <view class="box_txt">
+    记事
+   </view></view>
+
+ <navigator class="box5" url="/pages/logs/logs">  <view class="box_img">
+  <image class="icon" src="/icon/form.png"></image>
+   </view>
+   <view class="box_txt">
+     历史
+   </view></navigator>
+
+ 
+ <navigator class="box1" url="/pages/time/set">  <view class="box_img">
+  <image class="icon" src="/icon/set.png"></image>
+   </view>
+   <view class="box_txt">
+     设置
+   </view></navigator>
+
+   <view class="modal" style="{{modalShowStyle}}">
+    <view class="dialog">
+      <view class="modal-item" style="display:flex;justify-content:center;align-items:center;">
+      请输入日记标题
+      </view>
+      <view class="modal-item" style="margin:0 auto;width:90%;">
+        <input type="text" bindinput="titleInput" style="background-color:white;border-radius:2px;" value="{{diaryTitle}}" placeholder="请输入日记标题"></input>
+      </view>
+      <view class="modal-button" style="width:100%">
+        <view style="color:green;border-right:1px solid #E5E7ED;" bindtap="touchAddNew">确定</view>
+        <view bindtap="touchCancel">取消</view>
+      </view>
+    </view>
+  </view>
+
+
+</view>

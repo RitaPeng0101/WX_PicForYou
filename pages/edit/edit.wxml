@@ -1,0 +1,79 @@
+
+<image style="width: 100%; height: 500rpx;border:#"  src="/icon/y2.jpg"></image>
+
+<view class="ju">
+ <navigator class="box1" url="/pages/index/index">
+   <view class="box_img">
+    <image class="icon" src="/icon/eraser.png"></image>
+   </view>
+   <view class="box_txt">
+     擦除
+   </view>
+ </navigator> 
+ <navigator class="box2" url="/pages/index/index">
+  <view class="box_img">
+    <image class="icon" src="/icon/cut.png"></image>
+   </view>
+   <view class="box_txt">
+     剪裁
+   </view>
+ </navigator>
+
+ <navigator class="box3" url="/pages/index/index">
+  <view class="box_img">
+    <image class="icon" src="/icon/edit.png"></image>
+   </view>
+   <view class="box_txt">
+     命名
+   </view>
+  </navigator>
+
+ <navigator class="box4" url="/pages/index/index">
+  <view class="box_img">
+    <image class="icon" src="/icon/explain.png"></image>
+   </view>
+   <view class="box_txt">
+    标签
+   </view>
+  </navigator>
+
+ <navigator class="box5" url="/pages/index/index">  <view class="box_img">
+  <image class="icon" src="/icon/comments.png"></image>
+   </view>
+   <view class="box_txt">
+    配文
+   </view></navigator>
+
+ <navigator class="box5" url="/pages/index/index">  <view class="box_img">
+  <image class="icon" src="/icon/history.png"></image>
+   </view>
+   <view class="box_txt">
+     时间
+   </view></navigator>
+
+ <navigator class="box4" url="/pages/index/index">  <view class="box_img">
+  <image class="icon" src="/icon/map.png"></image>
+   </view>
+   <view class="box_txt">
+     位置
+   </view></navigator>
+ <navigator class="box3" url="/pages/index/index">  <view class="box_img">
+  <image class="icon" src="/icon/same.png"></image>
+   </view>
+   <view class="box_txt">
+     复用
+   </view></navigator>
+ <navigator class="box2" url="/pages/index/index">  <view class="box_img">
+  <image class="icon" src="/icon/file-open.png"></image>
+   </view>
+   <view class="box_txt">
+     归组
+   </view></navigator>
+ <navigator class="box1" url="/pages/index/index">  <view class="box_img">
+  <image class="icon" src="/icon/tool.png"></image>
+   </view>
+   <view class="box_txt">
+     模式
+   </view></navigator>
+
+</view>
